@@ -1,0 +1,42 @@
+.color{
+    width: 400px;
+    height: 400px;
+    background: blue;
+    background: #0000FF;
+    background: rgb(0%, 0%, 100%);
+    background: rgb(0, 0, 255)  ;          
+    background: HSL(225, 100%, 45%);
+}
+.gradient{
+    width: 400px;
+    height:400px;
+    background-image: linear-gradient(#00f, #f00);
+}
+.text::first-letter{
+ color: red;
+ font-size: 45px;
+}
+.list li{
+    list-style:none;
+    display:inline-block;
+    font-size: 36px;
+}
+.list li a{
+    color:black;
+}
+.list li a:hover{
+    text-decoration: none;
+    color: brown;
+}
+.list li a:active{
+    text-decoration: underline;
+    color: red;
+    font-size: 40px;
+}
+.list li ul{
+    display:none;
+}
+.list li:hover ul{
+    display:block;
+    position:absolute;
+}
